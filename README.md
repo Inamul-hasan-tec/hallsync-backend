@@ -1,5 +1,9 @@
 # Hall Sync Backend
 
+Hall Sync is a deployed, multi-tenant SaaS for banquet hall operations. This Node.js, Express, and MySQL service supports the booking calendar, customer records, payment tracking, and invoicing.
+
+The main workflow starts with hall availability. Slots can be vacant, booked, or blocked. Bookings tie the selected hall and slot to the customer record, while payment records and invoices support the follow-up workflow. The API also has separate routes for platform administration and tenant operations.
+
 TypeScript, Express, and MySQL API for the Hall Sync multi-tenant SaaS.
 
 ## Requirements
